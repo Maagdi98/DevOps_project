@@ -1,0 +1,19 @@
+my_python_project/
+├── backend/                   # Backend API code and Dockerfile
+│   ├── app.py                 # Main backend application file (Flask)
+│   ├── requirements.txt       # Backend dependencies for Python
+│   └── Dockerfile             # Dockerfile for the backend service
+│
+├── frontend/                  # Frontend code and Dockerfile
+│   ├── src/                   # Source code for the frontend
+│   ├── package.json           # Frontend dependencies file
+│   └── Dockerfile             # Dockerfile for the frontend service
+│
+├── nginx/                     # Nginx configuration
+│   └── nginx.conf             # Nginx configuration file
+│
+├── db/                        # Database initialization files
+│   └── init.sql               # Initial SQL script for database setup
+│
+├── docker-compose.yml         # Docker Compose configuration file for all services
+└── .env                       # Environment variables file (optional)

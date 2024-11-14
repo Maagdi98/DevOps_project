@@ -1,0 +1,36 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+*.env
+
+# Docker related files
+**/node_modules
+**/dist
+**/build
+.docker/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+
+# System files
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MySQL Docker files (optional)
+docker-compose.override.yml
+docker-compose.yml
+
+# Sensitive information (optional)
+.env
+
